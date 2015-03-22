@@ -1,3 +1,5 @@
+## Code book
+
 “subject"
 "activity"
 "tBodyAcc-mean()-X"
