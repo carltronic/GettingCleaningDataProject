@@ -52,6 +52,10 @@ colnames(subject.all) <- c("subject")
 master <- cbind(subject.all, y.all, x.all)
 master <- tbl_df(master)
 
+## Clean up
+rm(features_labels)
+rm(x.all, y.all)
+rm(subject.all)
 
 ################################################################################
 ## 2. Extracts only the measurements on the mean and standard deviation for   ##
@@ -74,6 +78,7 @@ master.labeled <- mutate(master.labeled, activity = V2)
 master.labeled$V2 <- NULL ## drop the temporary column
 
 ## Clean up
+rm(activity_labels)
 rm(master.reduced)
 
 ################################################################################

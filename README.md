@@ -1,7 +1,7 @@
 # GettingCleaningDataProject
 Course Project for the Getting and Cleaning Data Course
 
-This repository contains the run_analysis.R script, the project code book and this readme file.
+This repository contains the run_analysis.R script, the project code book, the tidy data output and this readme file.
 The raw data was obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
