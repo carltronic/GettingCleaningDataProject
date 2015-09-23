@@ -93,7 +93,7 @@ master.grouped <- group_by(master.labeled, subject, activity)
 master.summarized <- summarise_each(master.grouped, funs(mean))
 
 ## Clean up
-rm(master.labled, master.grouped)
+rm(master.labeled, master.grouped)
 
 ## Output the summarized data to a file
 write.table(master.summarized, file="./tidy_data.txt", row.names = FALSE)
