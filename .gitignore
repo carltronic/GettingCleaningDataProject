@@ -1,0 +1,76 @@
+
+UCI HAR Dataset/train/subject_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt
+
+.Rproj.user/55552F14/sdb/prop/23C7ED66
+
+.Rproj.user/55552F14/sdb/prop/6DDEE67F
+
+.Rproj.user/55552F14/sdb/prop/8CE8F79
+
+.Rproj.user/55552F14/sdb/prop/9A8B289B
+
+.Rproj.user/55552F14/sdb/prop/INDEX
+
+.Rproj.user/55552F14/sdb/s-D3C0D188/5F9B2A55
+
+.Rproj.user/55552F14/sdb/s-D3C0D188/78915C11
+
+.Rproj.user/55552F14/sdb/s-D3C0D188/ED9B0338
+
+.Rproj.user/55552F14/sdb/s-D3C0D188/lock_file
+
+GettingCleaningDataProject.Rproj
+
+UCI HAR Dataset/activity_labels.txt
+
+UCI HAR Dataset/features_info.txt
+
+UCI HAR Dataset/features.txt
+
+UCI HAR Dataset/README.txt
+
+UCI HAR Dataset/test/Inertial Signals/body_acc_x_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/body_acc_y_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/body_acc_z_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt
+
+UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt
+
+UCI HAR Dataset/test/subject_test.txt
+
+UCI HAR Dataset/test/X_test.txt
+
+UCI HAR Dataset/test/y_test.txt
+
+UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/body_acc_y_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/body_acc_z_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt
+
+UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt
+
+UCI HAR Dataset/train/X_train.txt
+
+UCI HAR Dataset/train/y_train.txt

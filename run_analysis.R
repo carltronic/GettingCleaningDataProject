@@ -1,6 +1,6 @@
 ## carltronic
-## 21 March 2015
-## V1.0
+## 23 September 2015
+## V1.1
 ## runanalysis.R
 
 library(dplyr)
@@ -62,6 +62,8 @@ master <- tbl_df(master)
 
 master.reduced <- master[,grepl("subject|activity|mean|std",colnames(master))]
 
+## Clean up
+rm(master)
 
 ################################################################################
 ## 3. Uses descriptive activity names to name the activities in the data set  ##
@@ -71,6 +73,8 @@ master.labeled <- merge(master.reduced, activity_labels, by.x="activity", by.y="
 master.labeled <- mutate(master.labeled, activity = V2)
 master.labeled$V2 <- NULL ## drop the temporary column
 
+## Clean up
+rm(master.reduced)
 
 ################################################################################
 ## 4. Appropriately labels the data set with descriptive variable names.      ##
@@ -87,6 +91,9 @@ master.labeled$V2 <- NULL ## drop the temporary column
 
 master.grouped <- group_by(master.labeled, subject, activity)
 master.summarized <- summarise_each(master.grouped, funs(mean))
+
+## Clean up
+rm(master.labled, master.grouped)
 
 ## Output the summarized data to a file
 write.table(master.summarized, file="./tidy_data.txt", row.names = FALSE)

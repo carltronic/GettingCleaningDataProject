@@ -11,7 +11,7 @@ The raw data set contains two sets of data: train and test.
 In the first step, the scripts combines the two data sets to create a single data set. 
 It is also at this point that descriptive variable names are added to the table.
 
-In the second step, the measurements pertaining to meand and std deviation are retained while all others are dropped.
+In the second step, the measurements pertaining to mean and std deviation are retained while all others are dropped.
 
 The third step changes the integer values in the activity column into user readable descriptions.
 

@@ -1,6 +1,6 @@
 Code book.
 
-The following variables are comprise the tidy data set.
+The following variables comprise the tidy data set.
 The subject variable represents the identifier for the subject performing the activity.
 The activity variable is a description of one of six activities performed.
 
